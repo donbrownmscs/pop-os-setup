@@ -19,7 +19,6 @@
 
 # See instructions: https://github.com/DaniGuardiola/pop-os-setup/
 
-
 echo -e "\nWelcome to the Pop!_OS setup script by Dani Guardiola"
 echo -e "-----------------------------------------------------\n"
 
@@ -36,7 +35,7 @@ echo -e "\n> Downloading Pop!_OS install scripts...\n"
 
 cd /tmp
 rm -rf pop-os-setup pop-os-setup.zip
-wget -O pop-os-setup.zip https://github.com/DaniGuardiola/pop-os-setup/archive/refs/heads/main.zip
+wget -O pop-os-setup.zip https://github.com/donbrownmscs/pop-os-setup/archive/refs/heads/main.zip
 unzip -q -d pop-os-setup/ pop-os-setup.zip
 cd pop-os-setup/pop-os-setup-main/
 
