@@ -63,7 +63,7 @@ log () {
 }
 
 deb () {
-    # download and install a deb file
+    # download and install a deb file and then fix any broken dependencies with apt install -f
     # $1: deb file URL
     name=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
     wget -O "$TMP_DIR/$name.deb" $1
